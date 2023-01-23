@@ -1,0 +1,20 @@
+.text-intro {
+    text-align: justify;
+}
+
+mark {
+    font-weight: bold;
+}
+
+path {
+    transition: transform .3s ease;
+}
+
+section {
+    max-width: 1500px;
+    margin: auto;
+}
+
+.dark {
+    color: black;
+}
