@@ -5,10 +5,10 @@ diagrammeCirculaire.setAttribute("width", 3*rayon)
 diagrammeCirculaire.setAttribute("height", 3*rayon)
 diagrammeCirculaire.setAttribute("viewBox", `${-1.5*rayon} ${-1.5*rayon} ${3*rayon} ${3*rayon}`)
 
-const data = [{nom: 'Python', valeur: 70, couleur: 'blue'},
-              {nom: 'Data', valeur: 10, couleur: 'green'},
-              {nom: 'Web', valeur: 10, couleur: 'red'},
-              {nom: 'Archi', valeur: 10, couleur: 'orange'},]
+const data = [{nom: 'Python', valeur: 70, couleur: 'DodgerBlue'},
+              {nom: 'Data', valeur: 10, couleur: 'Tomato'},
+              {nom: 'Web', valeur: 10, couleur: 'LimeGreen'},
+              {nom: 'Archi', valeur: 10, couleur: 'Violet'},]
 var somme = data.reduce((acc, elt) => acc+elt.valeur, 0)
 
 function calculerAngle(valeur) {
